@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+  pre_build:
+    commands:
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo "Building the Flask application"
+      # Add any build commands here
+  post_build:
+    commands:
+      - echo "Build completed successfully"
