@@ -1,0 +1,8 @@
+# Stage the changes
+git add .gitlab-ci.yml
+
+# Commit the changes with a descriptive message
+git commit -m "Add GitLab CI/CD pipeline configuration"
+
+# Push the changes to the remote repository (GitLab)
+git push origin main
